@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alannahcooke.callofthewild" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Farm">
+        </activity>
+
+        <activity android:name=".Jungle">
+        </activity>
+
+        <activity android:name=".Desert">
+        </activity>
+
+        <activity android:name="pop_camel"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name=".pop_cat"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name=".pop_chicken"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name="pop_cow"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name="pop_elephant"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name="pop_monkey"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name="pop_snake"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity android:name="pop_tiger"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+    </application>
+
+</manifest>
